@@ -1,0 +1,71 @@
+body {
+    /* background-image: url(../img/colorido\ 4000x4000.jpg); */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#dov, h1, span{
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-12, #px { 
+    border: 6px outset black;
+    border-radius: 8px;
+    margin: 8px;
+    background-position: center;
+    background-color: white;
+    justify-content:space-between;
+    /* cursor: pointer; */
+    text-align: center;
+    color:black;
+    box-shadow: 1px 3px 3px  black; 
+}
+#px, #text {
+
+    margin: 8px;
+    width: 100%;
+}
+
+
+/*#px { 
+    width: 180px;
+    height: 158px;
+    top: 12%;
+    margin: 4px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 4px outset gray;
+    
+    color:black;
+    background-color: rgba(133, 132, 132, 0.144);
+    margin-left: 400px;
+    text-align: center;
+    box-shadow: 1px 3px 3px  black; 
+
+}  */
+
+#text {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+#label {
+    background-color: rgb(0, 0, 0);
+}
+
+#button {
+    margin-top: 10px;
+    
+    background-color: rgba(0, 128, 0, 0.568);
+    border-radius: 10px;
+}
+
+h1 {
+    color: black;
+}
+
+span {
+    color: black;
+}
